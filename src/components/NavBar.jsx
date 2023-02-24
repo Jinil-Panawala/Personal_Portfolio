@@ -30,10 +30,17 @@ const NavBar = () => {
 
     return (
         <div className='flex justify-between items-center w-full
-        h-20 px-2  text-white bg-black fixed'>
+        h-20 px-4  text-white bg-black fixed'>
         
             <div> 
-                <h1 className='text-5xl font-signature ml-2'>Jinil Panawala</h1>
+                
+                <h1 className='text-5xl font-signature ml-2 cursor-pointer'>
+                    <Link to={'home'} smooth duration={500}>
+                    Jinil Panawala
+                    </Link>
+                
+                </h1>
+                
             </div>
 
              <ul className='hidden md:flex'>

@@ -61,8 +61,8 @@ const Projects = () => {
                         
                         
 
-                        <div className='flex items-center justify-center'>
-                            <a className='text-center items-center justify-center w-1/2 px-6 py-1 m-4 '
+                        <div className='flex justify-center'>
+                            <a className='text-center justify-center w-1/2 px-6 py-1 m-4 '
                                 href={code}
                                 target="_blank"
                                 rel="noreferrer"

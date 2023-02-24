@@ -25,6 +25,22 @@ const About = () => {
                 although my favorite language by far is Python. I am currently looking for future
                 co-op/internship positions for a software development related role. 
             </p>
+
+            <div className='justify-center text-center pt-6'>
+                <a  href='/Jinil_Panawala_Resume.pdf'
+                    download={true}
+                    target="_blank"
+                    rel="noreferrer"
+                >
+                    <button className=' duration-200 hover:scale-105  text-white w-fit px-6 py-2 my-2 
+                                            rounded-md bg-gradient-to-r from-orange-300 to-orange-600 cursor-pointer'>
+                        Download Resume
+                    </button>
+
+                </a>
+
+            </div>
+            
         </div>
     </div>
   )
