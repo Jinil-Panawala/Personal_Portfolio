@@ -2,35 +2,28 @@ import React from 'react'
 
 const About = () => {
   return (
-    <div name="about" className='w-full h-screen bg-gradient-to-b
-    from-gray-800 to-black text-white'>
+    <div name="about" className='w-full h-screen bg-gradient-to-b from-gray-800 to-black text-white'>
 
         <div className='max-w-screen-lg mx-auto flex flex-col
         justify-center w-full h-full'>
-            <div className='pb-8'>
+            <div >
                 <p className='text-4xl font-bold inline border-b-4 border-gray-500'>
                     About
                 </p>
             </div>
 
             <p className='text-xl mt-20'>
-                Lorem ipsum dolor sit, amet consectetur adipisicing elit. 
-                Dolorem accusantium sint, pariatur dicta iste animi, illum 
-                libero ipsum quos expedita laudantium? Enim voluptate sapiente 
-                repudiandae delectus? Consequuntur est nobis facilis provident 
-                deserunt quibusdam earum odit natus saepe accusamus laudantium quos 
-                commodi quas aliquid reprehenderit quae porro esse, atque, minima in.
+                Hi! I'm Jinil Panawala and I am currently a first year student 
+                at the University of Waterloo (Ontario, Canada) studying Honours Computer Science. 
+
             </p>
 
             <br />
 
             <p className='text-xl'>
-                Lorem ipsum dolor sit, amet consectetur adipisicing elit. 
-                Dolorem accusantium sint, pariatur dicta iste animi, illum 
-                libero ipsum quos expedita laudantium? Enim voluptate sapiente 
-                repudiandae delectus? Consequuntur est nobis facilis provident 
-                deserunt quibusdam earum odit natus saepe accusamus laudantium quos 
-                commodi quas aliquid reprehenderit quae porro esse, atque, minima in.
+                I enjoy software development in a variety of languages, although my favorite
+                although my favorite language by far is Python. I am currently looking for future
+                co-op/internship positions for a software development related role. 
             </p>
         </div>
     </div>

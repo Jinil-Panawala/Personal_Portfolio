@@ -12,15 +12,15 @@ const NavBar = () => {
         },
         {
             id: 2,
-            link: 'about'
-        },
-        {
-            id: 3,
             link: 'projects'
         },
         {
-            id: 4,
+            id: 3,
             link: 'experience'
+        },
+        {
+            id: 4,
+            link: 'about'
         },
         {
             id: 5,
@@ -33,7 +33,7 @@ const NavBar = () => {
         h-20 px-2  text-white bg-black fixed'>
         
             <div> 
-                <h1 className='text-5xl font-signature ml-2'>Jinil</h1>
+                <h1 className='text-5xl font-signature ml-2'>Jinil Panawala</h1>
             </div>
 
              <ul className='hidden md:flex'>

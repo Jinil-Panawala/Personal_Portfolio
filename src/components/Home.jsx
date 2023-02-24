@@ -14,6 +14,7 @@ const Home = () => {
                 <p className='text-gray-500 py-4 max-w-md'>
                     Currently studying Computer Science 
                     at the University of Waterloo
+                    
                 </p>
                 <div>
                     <Link to="projects" smooth duration={500} className='group text-white w-fit px-6 py-3 my-2
@@ -29,7 +30,9 @@ const Home = () => {
             </div>
 
             <div>
-                <img src={JinilImage} alt="my profile" className='rounded-2xl mx-auto w-2/3 md:w-full' />
+                
+                <img src={JinilImage} alt="my profile" className='rounded-2xl mx-auto w-2/3 md:w-full' /> 
+                
             </div>
         </div>
     </div>

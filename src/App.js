@@ -8,12 +8,12 @@ import SocialLinks from "./components/SocialLinks";
 
 function App() {
   return (
-    <div> 
+    <div>       
       <NavBar />
       <Home />
-      <About />
       <Projects />
       <Experience />
+      <About />
       <Contact />
       <SocialLinks />
     </div>
