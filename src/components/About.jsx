@@ -13,7 +13,7 @@ const About = () => {
             </div>
 
             <p className='text-xl mt-20'>
-                Hi! I'm Jinil Panawala and I am currently a first year student 
+                Hi! I'm Jinil Panawala and I am currently a second year student 
                 at the University of Waterloo (Ontario, Canada) studying Honours Computer Science. 
 
             </p>
