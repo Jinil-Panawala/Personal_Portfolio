@@ -2,6 +2,7 @@ import React from 'react'
 import weatherApp from '../assets/projects/weatherApp.png'
 import transactionTracker from '../assets/projects/transactionTracker.png'
 import twitterSentimentBot from '../assets/projects/twitterSentimentBot.png'
+import stockWatchlist from '../assets/projects/stockWatchlist.png'
 
 const Projects = () => {
 
@@ -31,6 +32,15 @@ const Projects = () => {
             desc: 'A Twitter Bot that can tweet, follow, and like tweets, as well as conduct sentiment' + 
                     ' analysis. Tweets and their sentiment analysis can be exported in a CSV file for further work and analysis.',
             tools: 'Python, Twitter API, TextBlob'
+        },
+        {
+            id: 4,
+            name: 'Stock Watchlist',
+            src: stockWatchlist,
+            code: 'https://github.com/Jinil-Panawala/StockWatchlist',
+            desc: 'A full stack MERN app that allows users to search for stocks and view related information (including historical' +
+                    ' data via charts). Also allows users to save stocks to a watchlist. ',
+            tools: 'React, Express.js, Node.js, MongoDB Atlas, AWS EC2, Bootstrap'
         },
     ]
   return (
