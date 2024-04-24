@@ -6,7 +6,8 @@ import stockWatchlist from '../assets/projects/stockWatchlist.png'
 
 const Projects = () => {
 
-    const projects = [
+    // Only showcase best 3 projects at any given time
+    const projects = [ 
         {
             id: 1,
             name: 'Weather App',
@@ -24,15 +25,15 @@ const Projects = () => {
                     ' can classify, and list all monthly transactions in a google sheet to track income and expenses.',
             tools: 'Python, gspread, Zsh shell script'
         },
-        {
-            id: 3,
-            name: 'Twitter Sentiment Bot',
-            src: twitterSentimentBot,
-            code: 'https://github.com/Jinil-Panawala/Transanction_Tracker',
-            desc: 'A Twitter Bot that can tweet, follow, and like tweets, as well as conduct sentiment' + 
-                    ' analysis. Tweets and their sentiment analysis can be exported in a CSV file for further work and analysis.',
-            tools: 'Python, Twitter API, TextBlob'
-        },
+        // {
+        //     id: 3,
+        //     name: 'Twitter Sentiment Bot',
+        //     src: twitterSentimentBot,
+        //     code: 'https://github.com/Jinil-Panawala/Transanction_Tracker',
+        //     desc: 'A Twitter Bot that can tweet, follow, and like tweets, as well as conduct sentiment' + 
+        //             ' analysis. Tweets and their sentiment analysis can be exported in a CSV file for further work and analysis.',
+        //     tools: 'Python, Twitter API, TextBlob'
+        // },
         {
             id: 4,
             name: 'Stock Watchlist',
