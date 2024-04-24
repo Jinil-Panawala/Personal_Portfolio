@@ -1,7 +1,7 @@
 import React from 'react'
 import weatherApp from '../assets/projects/weatherApp.png'
 import transactionTracker from '../assets/projects/transactionTracker.png'
-import twitterSentimentBot from '../assets/projects/twitterSentimentBot.png'
+// import twitterSentimentBot from '../assets/projects/twitterSentimentBot.png'
 import stockWatchlist from '../assets/projects/stockWatchlist.png'
 
 const Projects = () => {
